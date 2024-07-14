@@ -14,12 +14,14 @@ This repository contains a simple chat application implemented in Bash using net
 To start the server, run the `server` script. You can optionally specify a port number as an argument. If no port is provided, the default port `9999` will be used.
 
 ```bash
+chmod +x server.sh
 ./server [port]
 ```
 
 ## Example:
 
 ```bash
+chmod +x server.sh
 ./server 8888
 ```
 After starting the server, it will prompt for a username. Enter your desired username to start the chat server. The server will then wait for a client to join.
@@ -28,6 +30,7 @@ After starting the server, it will prompt for a username. Enter your desired use
 To connect to the chat server, run the client script. It will prompt you to enter the hostname or IP address of the server and the port number.
 
 ```bash
+chmod +x client.sh
 ./client
 ```
 ## Example:
