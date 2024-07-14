@@ -8,8 +8,9 @@ This repository contains a simple chat application implemented in Bash using net
 ## Files
 - `client:` Script to connect to the chat server.
 - `server:` Script to host the chat server.
-Usage
-Server
+
+## Usage
+**Server**
 To start the server, run the server script. You can optionally specify a port number as an argument. If no port is provided, the default port 9999 will be used.
 
 bash
