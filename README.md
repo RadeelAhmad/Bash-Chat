@@ -24,28 +24,28 @@ To start the server, run the `server` script. You can optionally specify a port 
 ```
 After starting the server, it will prompt for a username. Enter your desired username to start the chat server. The server will then wait for a client to join.
 
-Client
+## Client
 To connect to the chat server, run the client script. It will prompt you to enter the hostname or IP address of the server and the port number.
 
-bash
-Copy code
+```bash
 ./client
-Example:
+```
+## Example:
 
-yaml
-Copy code
+```yaml
 Enter the hostname or IP address: 127.0.0.1
 Enter the port number: 8888
+```
 After entering the details, the client will connect to the server and you can start chatting.
 
-Features
-Ascii art displayed on both server and client startup.
-Real-time messaging between server and client.
-Color-coded messages for easier readability.
-Example
-Server Output
-vbnet
-Copy code
+## Features
+- Ascii art displayed on both server and client startup.
+- Real-time messaging between server and client.
+- Color-coded messages for easier readability.
+
+## Example
+**Server Output**
+```vbnet
  ▄▄▄▄    ▄▄▄        ██████  ██░ ██     ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
 ▓█████▄ ▒████▄    ▒██    ▒ ▓██░ ██▒   ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
 ▒██▒ ▄██▒██  ▀█▄  ░ ▓██▄   ▒██▀▀██░   ▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
@@ -59,9 +59,10 @@ Copy code
 Enter username: host
 Starting on port 8888
 Waiting for client to join...
-Client Output
-yaml
-Copy code
+```
+
+**Client Output**
+```yaml
  ▄▄▄▄    ▄▄▄        ██████  ██░ ██     ▄████▄   ██░ ██  ▄▄▄     ▄▄▄█████▓
 ▓█████▄ ▒████▄    ▒██    ▒ ▓██░ ██▒   ▒██▀ ▀█  ▓██░ ██▒▒████▄   ▓  ██▒ ▓▒
 ▒██▒ ▄██▒██  ▀█▄  ░ ▓██▄   ▒██▀▀██░   ▒▓█    ▄ ▒██▀▀██░▒██  ▀█▄ ▒ ▓██░ ▒░
@@ -75,3 +76,4 @@ Copy code
 Enter the hostname or IP address: 127.0.0.1
 Enter the port number: 8888
 Enter username: client
+```
