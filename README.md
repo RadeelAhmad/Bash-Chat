@@ -1,9 +1,9 @@
 ## Bash-Chat
 This repository contains a simple chat application implemented in Bash using netcat. The application consists of two scripts: client and server.
 
-Requirements
-Bash
-netcat (nc)
+## Requirements
+- Bash
+- netcat (nc)
 Files
 client: Script to connect to the chat server.
 server: Script to host the chat server.
